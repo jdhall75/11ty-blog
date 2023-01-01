@@ -12,8 +12,9 @@ permalink: posts/{{ title | slug }}/index.html
 
 I recently had an issue figuring out how to get picom start while booting into
 Awesomewm. After doing much research I found that I should be able to handle
-the initialization files for Xorg.  All the files that are involved in setting
-up your X session are simply shell scripts.
+this with the initialization files for Xorg.  All the files that are involved
+in setting up your X session are simply shell scripts.  This means that I can
+just run commands from them like I normally would.
 
 Anyway, here's the solution to getting picom running on login.  Not much here,
 but it works.
