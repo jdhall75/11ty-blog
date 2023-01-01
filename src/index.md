@@ -1,8 +1,9 @@
 ---
 layout: home
-title: 'Eleventy Duo'
+title: 'Jason Hall'
 ---
 
-# Hello World
+# Hello Internet
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. Checkout the [project's github repo](https://github.com/yinkakun/eleventy-duo) for more info.
+I keep telling myself to write down all the stuff that I do so I can remember
+it.  I'm getting older so I need it now more than ever!
