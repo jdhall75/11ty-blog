@@ -1,6 +1,6 @@
 ---
 title: Pythons dict.setdefault method
-date: 11-29-2023
+date: 2023-11-29 
 tags:
   - Python
   - little-known
