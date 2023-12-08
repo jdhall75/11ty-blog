@@ -122,15 +122,17 @@ take the same approach on the system configurations.
 ```
 # templates/system.j2
 {% raw %}
-{% include 'system.d/tacplus-servers.j2'
+{% include 'system.d/tacplus-servers.j2' %}
 {% endraw %}
 ```
 
 So now lets define just the tacacs service in a file.
 ```
 # /templates/service-tacacs.j2
+{% raw %}
 {% include 'groups.d/tacplus-servers.j2' %}
-{% include 'system.d/tacplus-servers.j2
+{% include 'system.d/tacplus-servers.j2 %}
+{% endraw %}
 ```
 
 I know we can send the entire configuration to the router and Junos will decide
