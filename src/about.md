@@ -1,14 +1,12 @@
 ---
-title: About Aidan Charles Powell
+title: About Jason Hall
 layout: about.njk
-name: Aidan Charles Powell
-image: '/images/me.jpeg'
+name: Jason Hall
+image: ''
 ---
+Jason Hall is a 48-year-old network engineer who enjoys programming, building things, and whiskey.  He is generous and giving, but also likes his alone time to think about future plans.
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+He is a technology Jedi who looks for new things to learn.  He follows his late fathers montra of "It's better to be a jack of all trades than a master of one."
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+He grew up middle class and worked on his grandfathers farm as a teen. He loves a good walk in the woods and to get his hands dirty growing a garden in the spring because of this.
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
-
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
