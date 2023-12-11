@@ -141,4 +141,7 @@ and I would like to stay very tactical with our configuration changes.  If we
 are not careful and we have a "cowboy config" out in the network we could end
 up isolting a router or not being able to manage it.
 
+I hope this helps someone.  I am currently restructuring our templates to implement these patterns.
+
+
 
