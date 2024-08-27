@@ -14,6 +14,8 @@ I guess there are two methodologies out there to managing your virtual environme
 
 You could employ a manager like Pyenv, Hatch, Pipenv, or Pyflow to take care of the heavy lifting, but that's another tool to learn and I a trying to simplify my worflow.  What if we had management of the environments built right in our shell.  That is when I ended up writing my own set of bash functions to manage my virtual environments. I am no bash guru, but they do work pretty nicely if I do say so myself.
 
+I've had some thoughts on this since I started writing.  Like using the projects directory name for the virtualenv name.  This could save some typing.  Maybe setting up PROMPT_COMMAND to point to a function that checks the `$PYENV_HOME` for an existing virtual environment and activates it automatically.
+
 
 
 ```bash
