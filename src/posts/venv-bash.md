@@ -10,15 +10,15 @@ description: When you dont want to install another tool to manage your Python vi
 permalink: posts/{{ title | slug }}/index.html
 ---
 
-I guess there are two methodologies out there to managing your virtual environments for Python.  The first is to add it in the .venv directory in the root of your project.  That way when you manuver into your project you can simply execute `. .venv/bin/activate` and get started.  The other is to manage them in a central location. In the base of your $HOME directory somewhere like .virtualenvs.  These are great, but they both have their pro's and con's.  Did I create a virtual environment for this project? If its buried in a directory outside your project it's hard to tell.  If you placed your .venv in the root of your project and forgot to add it to the `.gitignore`(Your using version control, right?).  You could end up with more in your repo that you wanted.  
+I guess there are two methodologies out there to managing your virtual environments for Python.  The first is to add it in the .venv directory in the root of your project.  That way when you manuver into your project you can simply execute `. .venv/bin/activate` and get started.  The other is to manage them in a central location. In the base of your $HOME directory somewhere like .virtualenvs.  These are great, but they both have their pro's and con's.  Did I create a virtual environment for this project? If its buried in a directory outside your project it's hard to tell.  If you placed your .venv in the root of your project and forgot to add it to the `.gitignore`(Your using version control, right?).  You could end up with more in your repo that you wanted. These are things that have happend and still happen to me.
 
 You could employ a manager like Pyenv, Hatch, Pipenv, or Pyflow to take care of the heavy lifting, but that's another tool to learn and I a trying to simplify my worflow.  What if we had management of the environments built right in our shell.  That is when I ended up writing my own set of bash functions to manage my virtual environments. I am no bash guru, but they do work pretty nicely if I do say so myself.
 
 I've had some thoughts on this since I started writing.  Like using the projects directory name for the virtualenv name.  This could save some typing.  Maybe setting up PROMPT_COMMAND to point to a function that checks the `$PYENV_HOME` for an existing virtual environment and activates it automatically.
 
-
-
 ```bash
+PYENV_HOME=$HOME/.venvs
+
 # Init python venvs created in the .local/venvs dir
 # activate <venv_name>
 function chkarg() { if [ -z "$@" ]; then echo "${FUNCNAME[-1]} requires an venv name"; exit -1; else exit 0; fi }
