@@ -17,7 +17,7 @@ In Python, "concrete exceptions" refer to specific, built-in exception types tha
 
 #### Examples:
 - TypeError
-  - Class methods or functions will raise a `TypeError` when called without the correct amount of positional arguments.
+    - Class methods or functions will raise a `TypeError` when called without the correct amount of positional arguments.
 ```python
 "hello" + 5 # Raises TypeError; string and int types cannot be added
 
